@@ -13,8 +13,8 @@
 :root {
   --accent: #86c232;
   --accent_2: #61892f;
-  --black: #222629;
-  --black_2: rgb(101, 101, 107);
+  --black: #222629f5;
+  --black_2: #222629ea;
   --black_3: #6b6e70;
 }
 
