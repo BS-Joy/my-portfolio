@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a1b67211ba.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 
@@ -18,18 +18,23 @@
 </head>
 
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">Bs-Joy</label>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="navbar">
+        <!-- <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label> -->
+        <label class="logo">Bs-Joy</label>
+        <ul class="nav-menu">
+            <li><a class="nav-links" href="#about">About</a></li>
+            <li><a class="nav-links" href="#skills">Skills</a></li>
+            <li><a class="nav-links" href="#interests">Interests</a></li>
+            <li><a class="nav-links" href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
     <section class="sidebar">
         <div class="sidebar-top">
@@ -115,7 +120,8 @@
         <section id="interests" class="interests-section">
             <div class="interests-text">
                 <h1 class="hi interests-title">Interests</h1>
-                <p>Apart from being a web developer, I enjoy playing games. Also I love fooball⚽, badminton🏸 and so much crazy about driving.</p>
+                <p>Apart from being a web developer, I enjoy playing games. Also I love fooball⚽, badminton🏸 and so
+                    much crazy about driving.</p>
             </div>
         </section>
 
@@ -130,7 +136,8 @@
                     </div>
                     <div class="connect linkd">
                         <i class="fa-brands fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/badhan-samadder-joy-a35173190/" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/badhan-samadder-joy-a35173190/"
+                            target="_blank">LinkedIn</a>
                     </div>
                     <div class="connect stack">
                         <i class="fa-brands fa-stack-overflow"></i>
@@ -144,6 +151,9 @@
             </div>
         </section>
     </main>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
