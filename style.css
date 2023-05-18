@@ -79,20 +79,6 @@ nav ul li a {
   background-color: var(--accent)
 }
 
-.checkbtn {
-  font-size: 30px;
-  color: var(--accent);
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer
-}
-
-#check,
-.checkbtn {
-  display: none
-}
-
 .sidebar {
   font-family: "Shippori Antique B1", sans-serif;
   font-weight: 900;
